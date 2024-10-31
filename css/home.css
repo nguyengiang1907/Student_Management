@@ -1,0 +1,53 @@
+.header_home{
+    width: 100%;
+    height: 60px;
+    background: rgba(15, 93, 201, 0.826);
+    float: left;
+}
+.left_home{
+    width: 15%;
+    min-height: 500px;
+    background: rgba(3, 12, 26, 0.808);
+    float: left;
+}
+.right_home{
+    width: 85%;
+    min-height: 500px;
+    background: rgba(237, 240, 243, 0.957);
+    float: left;
+}
+.footer_home{
+    width: 100%;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.815);
+    float: left;
+}
+.content_right{
+    width: 90%;
+    min-height: 250px;
+    background: rgba(255, 255, 255, 0.984);
+    margin: 5%;
+    box-shadow: 5px 5px 20px rgba(185, 185, 185, 0.539);
+}
+.table_container{
+    width: 90%;
+    height: 90%;
+    padding-left: 7%;
+    float: left;
+}
+.pencil-icon {
+    margin-left: 5px;
+    color: rgb(35, 35, 155);
+}
+
+.trash-icon {
+    margin-left: 5px;
+    color: rgba(172, 32, 32, 0.845);
+}
+.title_right{
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: red;
+}
+
