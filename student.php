@@ -58,14 +58,16 @@ class Student{
         $stmt->bindParam(':age', $student->age, PDO::PARAM_INT);
         $stmt->bindParam(':address', $student->address, PDO::PARAM_STR);
         $stmt->bindParam(':class_student', $student->class_student, PDO::PARAM_STR);
-        $stmt->execute();
+        $result = $stmt->execute();
+        return $result;
     }
 
     public function deleteById($id){
         $sql = "DELETE FROM $this->table WHERE id = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
-        $stmt->execute();
+        $result = $stmt->execute();
+        return $result;
     }
 }
 ?>
